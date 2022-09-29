@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9DC1F7B27F0E53D008A3C84 /* MetricKitViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F6727F0E53C008A3C84 /* MetricKitViewerApp.swift */; };
+		C9DC1F7C27F0E53D008A3C84 /* MetricKitViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F6727F0E53C008A3C84 /* MetricKitViewerApp.swift */; };
+		C9DC1F7D27F0E53D008A3C84 /* MetricKitViewerDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F6827F0E53C008A3C84 /* MetricKitViewerDocument.swift */; };
+		C9DC1F7E27F0E53D008A3C84 /* MetricKitViewerDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F6827F0E53C008A3C84 /* MetricKitViewerDocument.swift */; };
+		C9DC1F7F27F0E53D008A3C84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F6927F0E53C008A3C84 /* ContentView.swift */; };
+		C9DC1F8027F0E53D008A3C84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F6927F0E53C008A3C84 /* ContentView.swift */; };
+		C9DC1F8127F0E53D008A3C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DC1F6A27F0E53D008A3C84 /* Assets.xcassets */; };
+		C9DC1F8227F0E53D008A3C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DC1F6A27F0E53D008A3C84 /* Assets.xcassets */; };
+		C9DC1F8D27F0E7F1008A3C84 /* MeterReporter in Frameworks */ = {isa = PBXBuildFile; productRef = C9DC1F8C27F0E7F1008A3C84 /* MeterReporter */; };
+		C9DC1F9027F0E815008A3C84 /* MeterReporter in Frameworks */ = {isa = PBXBuildFile; productRef = C9DC1F8F27F0E815008A3C84 /* MeterReporter */; };
+		C9DC1F9227F0F12D008A3C84 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F9127F0F12D008A3C84 /* TextView.swift */; };
+		C9DC1F9327F0F12D008A3C84 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F9127F0F12D008A3C84 /* TextView.swift */; };
+		C9DC1F9527F0F16E008A3C84 /* CrashDiagnosticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F9427F0F16E008A3C84 /* CrashDiagnosticView.swift */; };
+		C9DC1F9627F0F16E008A3C84 /* CrashDiagnosticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F9427F0F16E008A3C84 /* CrashDiagnosticView.swift */; };
+		C9DC1F9827F0F2DC008A3C84 /* CallStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F9727F0F2DC008A3C84 /* CallStackView.swift */; };
+		C9DC1F9927F0F2DC008A3C84 /* CallStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC1F9727F0F2DC008A3C84 /* CallStackView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9DC1F6727F0E53C008A3C84 /* MetricKitViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitViewerApp.swift; sourceTree = "<group>"; };
+		C9DC1F6827F0E53C008A3C84 /* MetricKitViewerDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitViewerDocument.swift; sourceTree = "<group>"; };
+		C9DC1F6927F0E53C008A3C84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9DC1F6A27F0E53D008A3C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9DC1F6F27F0E53D008A3C84 /* MetricKitViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricKitViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DC1F7227F0E53D008A3C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DC1F7727F0E53D008A3C84 /* MetricKitViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricKitViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DC1F7927F0E53D008A3C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DC1F7A27F0E53D008A3C84 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C9DC1F9127F0F12D008A3C84 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		C9DC1F9427F0F16E008A3C84 /* CrashDiagnosticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashDiagnosticView.swift; sourceTree = "<group>"; };
+		C9DC1F9727F0F2DC008A3C84 /* CallStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallStackView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9DC1F6C27F0E53D008A3C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DC1F8D27F0E7F1008A3C84 /* MeterReporter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DC1F7427F0E53D008A3C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DC1F9027F0E815008A3C84 /* MeterReporter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9DC1F6127F0E53C008A3C84 = {
+			isa = PBXGroup;
+			children = (
+				C9DC1F6627F0E53C008A3C84 /* Shared */,
+				C9DC1F7127F0E53D008A3C84 /* iOS */,
+				C9DC1F7827F0E53D008A3C84 /* macOS */,
+				C9DC1F7027F0E53D008A3C84 /* Products */,
+				C9DC1F8E27F0E815008A3C84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9DC1F6627F0E53C008A3C84 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C9DC1F6727F0E53C008A3C84 /* MetricKitViewerApp.swift */,
+				C9DC1F6827F0E53C008A3C84 /* MetricKitViewerDocument.swift */,
+				C9DC1F6927F0E53C008A3C84 /* ContentView.swift */,
+				C9DC1F6A27F0E53D008A3C84 /* Assets.xcassets */,
+				C9DC1F9127F0F12D008A3C84 /* TextView.swift */,
+				C9DC1F9427F0F16E008A3C84 /* CrashDiagnosticView.swift */,
+				C9DC1F9727F0F2DC008A3C84 /* CallStackView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C9DC1F7027F0E53D008A3C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9DC1F6F27F0E53D008A3C84 /* MetricKitViewer.app */,
+				C9DC1F7727F0E53D008A3C84 /* MetricKitViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9DC1F7127F0E53D008A3C84 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C9DC1F7227F0E53D008A3C84 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		C9DC1F7827F0E53D008A3C84 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C9DC1F7927F0E53D008A3C84 /* Info.plist */,
+				C9DC1F7A27F0E53D008A3C84 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C9DC1F8E27F0E815008A3C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9DC1F6E27F0E53D008A3C84 /* MetricKitViewer (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DC1F8527F0E53D008A3C84 /* Build configuration list for PBXNativeTarget "MetricKitViewer (iOS)" */;
+			buildPhases = (
+				C9DC1F6B27F0E53D008A3C84 /* Sources */,
+				C9DC1F6C27F0E53D008A3C84 /* Frameworks */,
+				C9DC1F6D27F0E53D008A3C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetricKitViewer (iOS)";
+			packageProductDependencies = (
+				C9DC1F8C27F0E7F1008A3C84 /* MeterReporter */,
+			);
+			productName = "MetricKitViewer (iOS)";
+			productReference = C9DC1F6F27F0E53D008A3C84 /* MetricKitViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9DC1F7627F0E53D008A3C84 /* MetricKitViewer (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DC1F8827F0E53D008A3C84 /* Build configuration list for PBXNativeTarget "MetricKitViewer (macOS)" */;
+			buildPhases = (
+				C9DC1F7327F0E53D008A3C84 /* Sources */,
+				C9DC1F7427F0E53D008A3C84 /* Frameworks */,
+				C9DC1F7527F0E53D008A3C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetricKitViewer (macOS)";
+			packageProductDependencies = (
+				C9DC1F8F27F0E815008A3C84 /* MeterReporter */,
+			);
+			productName = "MetricKitViewer (macOS)";
+			productReference = C9DC1F7727F0E53D008A3C84 /* MetricKitViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9DC1F6227F0E53C008A3C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C9DC1F6E27F0E53D008A3C84 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C9DC1F7627F0E53D008A3C84 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C9DC1F6527F0E53C008A3C84 /* Build configuration list for PBXProject "MetricKitViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9DC1F6127F0E53C008A3C84;
+			packageReferences = (
+				C9DC1F8B27F0E7F1008A3C84 /* XCRemoteSwiftPackageReference "MeterReporter" */,
+			);
+			productRefGroup = C9DC1F7027F0E53D008A3C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9DC1F6E27F0E53D008A3C84 /* MetricKitViewer (iOS) */,
+				C9DC1F7627F0E53D008A3C84 /* MetricKitViewer (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9DC1F6D27F0E53D008A3C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DC1F8127F0E53D008A3C84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DC1F7527F0E53D008A3C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DC1F8227F0E53D008A3C84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9DC1F6B27F0E53D008A3C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DC1F9527F0F16E008A3C84 /* CrashDiagnosticView.swift in Sources */,
+				C9DC1F9827F0F2DC008A3C84 /* CallStackView.swift in Sources */,
+				C9DC1F7B27F0E53D008A3C84 /* MetricKitViewerApp.swift in Sources */,
+				C9DC1F9227F0F12D008A3C84 /* TextView.swift in Sources */,
+				C9DC1F7D27F0E53D008A3C84 /* MetricKitViewerDocument.swift in Sources */,
+				C9DC1F7F27F0E53D008A3C84 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DC1F7327F0E53D008A3C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DC1F9627F0F16E008A3C84 /* CrashDiagnosticView.swift in Sources */,
+				C9DC1F9927F0F2DC008A3C84 /* CallStackView.swift in Sources */,
+				C9DC1F7C27F0E53D008A3C84 /* MetricKitViewerApp.swift in Sources */,
+				C9DC1F9327F0F12D008A3C84 /* TextView.swift in Sources */,
+				C9DC1F7E27F0E53D008A3C84 /* MetricKitViewerDocument.swift in Sources */,
+				C9DC1F8027F0E53D008A3C84 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9DC1F8327F0E53D008A3C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9DC1F8427F0E53D008A3C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C9DC1F8627F0E53D008A3C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77X93NZ3G2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chimehq.MetricKitViewer;
+				PRODUCT_NAME = MetricKitViewer;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9DC1F8727F0E53D008A3C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77X93NZ3G2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chimehq.MetricKitViewer;
+				PRODUCT_NAME = MetricKitViewer;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9DC1F8927F0E53D008A3C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77X93NZ3G2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chimehq.MetricKitViewer;
+				PRODUCT_NAME = MetricKitViewer;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C9DC1F8A27F0E53D008A3C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77X93NZ3G2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chimehq.MetricKitViewer;
+				PRODUCT_NAME = MetricKitViewer;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9DC1F6527F0E53C008A3C84 /* Build configuration list for PBXProject "MetricKitViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DC1F8327F0E53D008A3C84 /* Debug */,
+				C9DC1F8427F0E53D008A3C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DC1F8527F0E53D008A3C84 /* Build configuration list for PBXNativeTarget "MetricKitViewer (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DC1F8627F0E53D008A3C84 /* Debug */,
+				C9DC1F8727F0E53D008A3C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DC1F8827F0E53D008A3C84 /* Build configuration list for PBXNativeTarget "MetricKitViewer (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DC1F8927F0E53D008A3C84 /* Debug */,
+				C9DC1F8A27F0E53D008A3C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9DC1F8B27F0E7F1008A3C84 /* XCRemoteSwiftPackageReference "MeterReporter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChimeHQ/MeterReporter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9DC1F8C27F0E7F1008A3C84 /* MeterReporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9DC1F8B27F0E7F1008A3C84 /* XCRemoteSwiftPackageReference "MeterReporter" */;
+			productName = MeterReporter;
+		};
+		C9DC1F8F27F0E815008A3C84 /* MeterReporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9DC1F8B27F0E7F1008A3C84 /* XCRemoteSwiftPackageReference "MeterReporter" */;
+			productName = MeterReporter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C9DC1F6227F0E53C008A3C84 /* Project object */;
+}
