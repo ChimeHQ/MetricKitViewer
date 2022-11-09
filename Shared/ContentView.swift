@@ -24,6 +24,12 @@ struct ContentView: View {
                         Text("CPU Exception \(index + 1)")
                     }
                 }
+
+				Section(header: Text("Hang Diagnostics")) {
+					ForEach((0..<document.hangDiagnostics.count), id: \.self) { index in
+						Text("Hang \(index + 1)")
+					}
+				}
             }
         }
     }

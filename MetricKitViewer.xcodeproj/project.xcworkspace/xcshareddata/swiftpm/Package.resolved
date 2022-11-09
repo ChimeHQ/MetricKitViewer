@@ -1,34 +1,32 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Meter",
-        "repositoryURL": "https://github.com/ChimeHQ/Meter",
-        "state": {
-          "branch": null,
-          "revision": "3080bca08f99dbd9bd027caec15deb8b4b69d99a",
-          "version": "0.4.0"
-        }
-      },
-      {
-        "package": "MeterReporter",
-        "repositoryURL": "https://github.com/ChimeHQ/MeterReporter",
-        "state": {
-          "branch": null,
-          "revision": "302e342a2edccac9c4b47d169703e5f58df73944",
-          "version": "0.1.0"
-        }
-      },
-      {
-        "package": "Wells",
-        "repositoryURL": "https://github.com/ChimeHQ/Wells",
-        "state": {
-          "branch": null,
-          "revision": "1558d1bbafc1c57060103c5194ffa3abf4a332e3",
-          "version": "0.3.0"
-        }
+  "pins" : [
+    {
+      "identity" : "meter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ChimeHQ/Meter",
+      "state" : {
+        "revision" : "4fdce4aea73ba55a827e812013754f7554d05fbf",
+        "version" : "0.4.2"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "meterreporter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ChimeHQ/MeterReporter",
+      "state" : {
+        "revision" : "302e342a2edccac9c4b47d169703e5f58df73944",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "wells",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ChimeHQ/Wells",
+      "state" : {
+        "revision" : "1558d1bbafc1c57060103c5194ffa3abf4a332e3",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 2
 }

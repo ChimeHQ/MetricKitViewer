@@ -54,4 +54,8 @@ struct MetricKitViewerDocument: FileDocument {
     var cpuExceptionDiagnostics: [CPUExceptionDiagnostic] {
         return payload.cpuExceptionDiagnostics ?? []
     }
+
+	var hangDiagnostics: [HangDiagnostic] {
+		return payload.hangDiagnostics ?? []
+	}
 }

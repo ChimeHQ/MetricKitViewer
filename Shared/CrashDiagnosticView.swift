@@ -34,16 +34,24 @@ struct CrashDiagnosticView: View {
 		return diagnostic.metaData.osVersion
 	}
 
+	var usesOffsetAsLoadAddress: Bool {
+		return diagnostic.usesOffsetAsLoadAddress
+	}
+
     var body: some View {
-        VStack {
+		VStack(alignment: .leading) {
             Text("Version: \(appVersion) (\(appBuildVersion)) \(diagnostic.metaData.platformArchitecture)")
 			Text("OS: \(osVersion)")
 
             ScrollView {
-                ForEach((0..<diagnostic.callStackTree.callStacks.count), id: \.self) { index in
-                    CallStackView(callStack: diagnostic.callStackTree.callStacks[index])
-                        .padding()
-                }
+				VStack(alignment: .leading) {
+					CallStackView(callStack: CallStack(threadAttributed: false, rootFrames: diagnostic.exceptionInfo?.backtrace ?? []), offsetAsLoadAddress: usesOffsetAsLoadAddress)
+					
+					ForEach((0..<diagnostic.callStackTree.callStacks.count), id: \.self) { index in
+						CallStackView(callStack: diagnostic.callStackTree.callStacks[index], offsetAsLoadAddress: usesOffsetAsLoadAddress)
+							.padding()
+					}.frame(alignment: .leading)
+				}
             }
         }
     }
